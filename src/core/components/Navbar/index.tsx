@@ -1,9 +1,13 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+import './styles.css';
 
-const NavBar = () => (
+const Navbar = () => (
     <nav className="main-nav">
-
+        <Link to="/" className="main-nav-title">
+                Bootcamp DevSuperior
+        </Link>
     </nav>
 )
 
-export default NavBar;
+export default Navbar;

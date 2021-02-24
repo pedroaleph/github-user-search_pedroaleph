@@ -1,7 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
-* {
+body {
     font-family: 'Roboto', sans-serif;
     background-color: #E5E5E5;
+}
+
+a {
+    text-decoration: none;
+  }
+
+html, body {
+    margin: 0;
+    padding:0;
 }
 

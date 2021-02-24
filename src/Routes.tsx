@@ -1,9 +1,10 @@
+import Navbar from 'core/components/Navbar';
 import React from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
 const Routes = () => (
     <BrowserRouter>
-    {/*Navbar*/}
+    <Navbar />
     <Switch>
         <Route path="/" exact>
             {/*Home*/}
