@@ -1,3 +1,32 @@
 .search-container {
     padding: 0 100px 0 90px;
 }
+
+
+.search-area-container {
+    margin-top: 60px;
+    background: #E6F7FF;
+    border-radius: 16px;
+    padding-left: 95px;
+}
+
+.search-area-title {
+    padding-top: 65px;
+    font-weight: 500;
+    font-size: 38px;
+    line-height: 46px;
+}
+
+.search-area-form {
+    width: 40%;
+    height: 40px;
+    margin-top: 10px;
+    padding-left: 15px;
+    padding-right: 25px;
+    font-size: 16px;
+    line-height: 24px;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+

@@ -7,7 +7,7 @@ type Props ={
 
 const Button = ({buttonName}: Props) => {
     return(
-        <button className="btn-general">
+        <button className="btn-general" >
             <span className="btn-name">
                 {buttonName}
             </span>
