@@ -2,10 +2,15 @@ import Button from 'core/components/Button';
 import { userData } from 'core/types/userData';
 import './styles.css';
 import React from "react";
+import dayjs from 'dayjs';
 
 
 type userDetails = {
     details: userData
+}
+
+const formatDate = (date: string) => {
+    return (dayjs(date).format("DD/MM/YYYY"));
 }
 
 const ResultArea = ({ details }: userDetails) => {
@@ -36,7 +41,7 @@ const ResultArea = ({ details }: userDetails) => {
                     </h3>
                     <h3 className="user-info-border user-details">
                         <p>Membro desde: <span className="n">
-                                {details.created_at}
+                                {formatDate(details.created_at)}
                             </span>
                         </p>
 
